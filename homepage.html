@@ -11,33 +11,37 @@
         <title>Ohmyfood - Accueil</title>
     </head>
     <body>
+        <!--HEADER-->
         <header>
-            <figure class="logocontain">
-                <img
-                    class="logocontain__img"
-                    src="/img/logo/ohmyfood@2x.svg"
-                    alt="logo ohmyfood"
-                />
-            </figure>
+            <div class="logocontain">
+                <h1 class="logocontain__title">ohmyfood</h1>
+            </div>
             <p class="headerlocation">
-                <i class="fa-solid fa-location-dot"></i> Paris, Belleville
+                <i class="headerlocation__icon fa-solid fa-location-dot"></i>
+                Paris, Belleville
             </p>
         </header>
+        <!--HEADER/-->
         <main>
+            <!--HERO BANNER-->
             <section class="hero">
-                <h1 class="hero__title">Réservez le menu qui vous convient</h1>
+                <h2 class="hero__title">Réservez le menu qui vous convient</h2>
                 <p class="hero__subtitle">
                     Découvrez des restaurants d'exception, sélectionnés par nos
                     soins.
                 </p>
-                <nav>
-                    <button type="button" class="hero__btn btn">
-                        Explorer nos restaurants
-                    </button>
-                </nav>
+                <!--HERO BANNER/-->
+
+                <!--CALL TO ACTION-->
+                <button type="button" class="hero__btn btn">
+                    Explorer nos restaurants
+                </button>
+                <!--CALL TO ACTION/-->
             </section>
+
+            <!--STEP-->
             <section class="step">
-                <h2 class="step__title">Fonctionnement</h2>
+                <h3 class="step__title">Fonctionnement</h3>
                 <div class="step__contain">
                     <ol class="step__list">
                         <li class="step__card">
@@ -64,6 +68,9 @@
                     </ol>
                 </div>
             </section>
+            <!--STEP/-->
+
+            <!--RESTAURANT CARD-->
             <section class="restaurant">
                 <h2 class="restaurant__title">Restaurants</h2>
                 <div class="restaurant__container">
@@ -74,8 +81,8 @@
                                 alt="main tenant une assiette"
                                 class="content__img"
                             />
-                            <span class="content__label">Nouveau</span>
                             <figcaption class="content__description">
+                                <span class="content__label">Nouveau</span>
                                 <h3 class="content__title">
                                     La palette du goût
                                 </h3>
@@ -96,8 +103,8 @@
                                 alt="assiette vue du dessus"
                                 class="content__img"
                             />
-                            <span class="content__label">Nouveau</span>
                             <figcaption class="content__description">
+                                <span class="content__label">Nouveau</span>
                                 <h3 class="content__title">
                                     La note enchantée
                                 </h3>
@@ -155,20 +162,30 @@
                     </a>
                 </div>
             </section>
+            <!--RESTAURANT CARD/-->
         </main>
+
+        <!--FOOTER-->
+
         <footer class="footer">
             <section class="footer__container">
                 <h3 class="footer__title">ohmyfood</h3>
                 <ul class="footer__elements">
                     <li class="footer__link">
-                        <i class="footer__ustensils fa-solid fa-utensils"></i
-                        ><a href="#">Proposer un restaurant</a>
+                        <a href="#"
+                            ><i
+                                class="footer__ustensils fa-solid fa-utensils"
+                            ></i
+                            >Proposer un restaurant</a
+                        >
                     </li>
                     <li class="footer__link">
-                        <i
-                            class="footer__handshake fa-solid fa-handshake-angle"
-                        ></i
-                        ><a href="#">Devenir partenaire</a>
+                        <a href="#"
+                            ><i
+                                class="footer__handshake fa-solid fa-handshake-angle"
+                            ></i
+                            >Devenir partenaire</a
+                        >
                     </li>
                     <li class="footer__link">
                         <a href="">Mentions légales</a>

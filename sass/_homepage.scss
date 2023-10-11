@@ -1,0 +1,51 @@
+body {
+    font-family: $main-font;
+}
+
+.logocontain {
+    @include align-center;
+    height: 63px;
+
+    &__title {
+        font-size: 30px;
+        font-family: $title-font;
+    }    
+}
+
+.headerlocation {
+    @include align-center;
+    font-weight: 500;
+    background-color: #EAEAEA;
+    height: 50px;
+    box-shadow: inset 0px 4px 11px -8px;
+
+    &__icon {
+        margin-right: 18px;
+    }
+
+}
+
+.hero {
+    padding: 30px 0;
+    @include align-center;
+    flex-direction: column;
+    background-color: $background-color;
+
+    &__title {
+        line-height: 1.2;
+        padding: 0 45px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &__subtitle {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        padding: 20px;
+        border-radius: 50px;
+    }
+}

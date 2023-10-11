@@ -15,30 +15,26 @@
             <a href="/homepage.html" class="header__arrow">
                 <i class="fa-solid fa-arrow-left"></i>
             </a>
-            <figure class="header__logo logocontain">
-                <img
-                    src="/img/logo/ohmyfood@2x.svg"
-                    class="logocontain__img"
-                    alt="logo ohmyfood"
-                />
-            </figure>
+            <div class="header__logo logocontain">
+                <h1 class="logocontain__title">ohmyfood</h1>
+            </div>
         </header>
         <main class="menu">
-            <figure class="menu__imagecontain">
-                <img
-                    src="/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                    alt="main tenant une assiette"
-                    class="menu__img"
-                />
-            </figure>
             <section class="menu__content">
-                <h1 class="menu__title">La palette du goût</h1>
-                <i class="menu__regular fa-regular fa-heart"></i>
-                <i class="menu__solid fa-solid fa-heart"></i>
+                <header>
+                    <img
+                        src="/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                        alt="main tenant une assiette"
+                        class="menu__img"
+                    />
+                    <h2 class="menu__title">La palette du goût</h2>
+                    <i class="menu__regular fa-regular fa-heart"></i>
+                    <i class="menu__solid fa-solid fa-heart"></i>
+                </header>
                 <section class="starter">
                     <h3 class="starter__title">ENTRÉES</h3>
                     <div class="starter__container">
-                        <a class="starter__card" href="#">
+                        <div class="starter__card">
                             <h4 class="starter__card__name">
                                 Fricassée d'escargots
                             </h4>
@@ -46,8 +42,8 @@
                                 Au piment d'Espelette
                             </p>
                             <span class="starter__card__price">25€</span>
-                        </a>
-                        <a class="starter__card" href="#">
+                        </div>
+                        <div class="starter__card">
                             <h4 class="starter__card__name">
                                 Foie gras de canard mi-cuit
                             </h4>
@@ -55,20 +51,20 @@
                                 Et ses copeaux de truffe noire
                             </p>
                             <span class="starter__card__price">35€</span>
-                        </a>
-                        <a class="starter__card" href="#">
+                        </div>
+                        <div class="starter__card">
                             <h4 class="starter__card__name">Œuf au plat</h4>
                             <p class="starter__card__description">
                                 Assaisonné à la truffe sur lit de caviar
                             </p>
                             <span class="starter__card__price">20€</span>
-                        </a>
+                        </div>
                     </div>
                 </section>
                 <section class="dishe">
                     <h3 class="dishe__title">PLATS</h3>
                     <div class="dishe__container">
-                        <a class="dishe__card" href="#">
+                        <div class="dishe__card">
                             <h4 class="dishe__card__name">
                                 Filet de bœuf aux herbes
                             </h4>
@@ -76,8 +72,8 @@
                                 Accompagné de sa ribambelle de légumes
                             </p>
                             <span class="dishe__card__price">40€</span>
-                        </a>
-                        <a class="dishe__card" href="#">
+                        </div>
+                        <div class="dishe__card">
                             <h4 class="dishe__card__name">
                                 Parmentier de queue de bœuf
                             </h4>
@@ -85,23 +81,23 @@
                                 À la truffe noire sur sa purée de panais
                             </p>
                             <span class="dishe__card__price">35€</span>
-                        </a>
-                        <a class="dishe__card" href="#">
+                        </div>
+                        <div class="dishe__card">
                             <h4 class="dishe__card__name">Filet de turbot</h4>
                             <p class="dishe__card__description">Aux agrumes</p>
                             <span class="dishe__card__price">44€</span>
-                        </a>
+                        </div>
                     </div>
                 </section>
                 <section class="dessert">
                     <h3 class="dessert__title">DESSERTS</h3>
                     <div class="dessert__container">
-                        <a class="dessert__card" href="#">
+                        <div class="dessert__card">
                             <h4 class="dessert__card__name">Paris-Brest</h4>
                             <p class="dessert__card__description">Revisité</p>
                             <span class="dessert__card__price">18€</span>
-                        </a>
-                        <a class="dessert__card" href="#">
+                        </div>
+                        <div class="dessert__card">
                             <h4 class="dessert__card__name">
                                 Macaron au chocolat d'exception
                             </h4>
@@ -109,8 +105,8 @@
                                 Et glace à la vanille de Madagascar
                             </p>
                             <span class="dessert__card__price">22€</span>
-                        </a>
-                        <a class="dessert__card" href="#">
+                        </div>
+                        <div class="dessert__card">
                             <h4 class="dessert__card__name">
                                 Mousse au chocolat
                             </h4>
@@ -118,7 +114,7 @@
                                 Au piment d'Espelette et à la truffe noire
                             </p>
                             <span class="dessert__card__price">23€</span>
-                        </a>
+                        </div>
                     </div>
                 </section>
             </section>
@@ -129,14 +125,20 @@
                 <h3 class="footer__title">ohmyfood</h3>
                 <ul class="footer__elements">
                     <li class="footer__link">
-                        <i class="footer__ustensils fa-solid fa-utensils"></i
-                        ><a href="#">Proposer un restaurant</a>
+                        <a href="#"
+                            ><i
+                                class="footer__ustensils fa-solid fa-utensils"
+                            ></i
+                            >Proposer un restaurant</a
+                        >
                     </li>
                     <li class="footer__link">
-                        <i
-                            class="footer__handshake fa-solid fa-handshake-angle"
-                        ></i
-                        ><a href="#">Devenir partenaire</a>
+                        <a href="#"
+                            ><i
+                                class="footer__handshake fa-solid fa-handshake-angle"
+                            ></i
+                            >Devenir partenaire</a
+                        >
                     </li>
                     <li class="footer__link">
                         <a href="">Mentions légales</a>

@@ -1,13 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-body {
-  font-family: "Roboto", sans-serif;
-}
-
-.footer__title {
-  font-family: "Shrikhand", sans-serif;
-}
-
 /* Box sizing rules */
 *,
 *::before,
@@ -54,4 +46,56 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.logocontain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 63px;
+}
+.logocontain__title {
+  font-size: 30px;
+  font-family: "Shrikhand", sans-serif;
+}
+
+.headerlocation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  background-color: #EAEAEA;
+  height: 50px;
+  box-shadow: inset 0px 4px 11px -8px;
+}
+.headerlocation__icon {
+  margin-right: 18px;
+}
+
+.hero {
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #F2F2F2;
+}
+.hero__title {
+  line-height: 1.2;
+  padding: 0 45px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero__subtitle {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.hero__btn {
+  padding: 20px;
+  border-radius: 50px;
 }/*# sourceMappingURL=main.css.map */
