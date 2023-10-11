@@ -114,11 +114,15 @@ body {
 }
 
 .step {
-  padding: 20px 24px 40px 24px;
+  padding: 20px 0 40px 0;
 }
 .step__title {
+  padding: 0 15px;
   font-size: 24px;
   margin-bottom: 30px;
+}
+.step__list {
+  padding: 0 24px;
 }
 .step__card {
   position: relative;
@@ -128,7 +132,7 @@ body {
   margin-bottom: 20px;
   height: 72px;
   border-radius: 20px;
-  box-shadow: 0px 5px 7px #C6C6C6;
+  box-shadow: 0px 4px 7px #C6C6C6;
 }
 .step__number {
   position: absolute;
@@ -145,4 +149,15 @@ body {
 }
 .step__icons {
   margin: 0 20px 0 35px;
+  color: #7E7E7E;
+}
+.step__icons--purple {
+  color: #9356DC;
+}
+.step__cardtext {
+  font-weight: 500;
+}
+
+.restaurant {
+  background-color: #F6F6F6;
 }/*# sourceMappingURL=main.css.map */
