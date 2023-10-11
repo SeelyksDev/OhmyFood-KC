@@ -160,4 +160,32 @@ body {
 
 .restaurant {
   background-color: #F6F6F6;
+  padding: 40px 15px;
+}
+.restaurant__title {
+  margin-bottom: 20px;
+}
+
+.content {
+  background-color: purple;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  position: relative;
+  height: 250px;
+}
+.content__img {
+  border-radius: 20px 20px 0 0;
+  height: 170px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.content__label {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background-color: #99E2D0;
+  padding: 4px 13px;
+  border-radius: 3px;
+  color: green;
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
