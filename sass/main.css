@@ -94,8 +94,19 @@ body {
   text-align: center;
   font-size: 18px;
   margin-bottom: 20px;
+  font-weight: 300;
 }
 .hero__btn {
-  padding: 20px;
+  padding: 15px 20px;
   border-radius: 50px;
+  box-shadow: 0px 5px 7px #C6C6C6;
+  background-image: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  font-weight: 500;
+  border: none;
+  color: white;
+  transition: transform 400ms;
+  cursor: pointer;
+}
+.hero__btn:hover {
+  transform: scale(1.1);
 }/*# sourceMappingURL=main.css.map */
