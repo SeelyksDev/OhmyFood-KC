@@ -96,7 +96,8 @@ body {
   margin-bottom: 20px;
   font-weight: 300;
 }
-.hero__btn {
+
+.btn {
   padding: 15px 20px;
   border-radius: 50px;
   box-shadow: 0px 5px 7px #C6C6C6;
@@ -107,7 +108,7 @@ body {
   transition: transform 400ms, filter 400ms;
   cursor: pointer;
 }
-.hero__btn:hover {
+.btn:hover {
   transform: scale(1.1);
   filter: brightness(1.2);
   font-weight: 400;
@@ -261,15 +262,18 @@ body {
   color: black;
 }
 
+.menu {
+  background-color: #F6F6F6;
+}
 .menu__container {
-  padding: 30px 15px;
+  padding: 30px 15px 0 15px;
   position: relative;
   background-color: #F6F6F6;
-  border-radius: 40px 40px 0 0;
+  border-radius: 45px 45px 0 0;
   top: -45px;
 }
 .menu__header {
-  margin-bottom: 30px;
+  margin-bottom: 40px;
 }
 .menu__title {
   font-family: "Shrikhand", sans-serif;
@@ -281,6 +285,7 @@ body {
   right: 40px;
   top: 34px;
   font-size: 27px;
+  cursor: pointer;
 }
 .menu__regular {
   color: black;
@@ -295,6 +300,10 @@ body {
 }
 .menu__solid:hover {
   opacity: 1;
+}
+
+.starter, .dishe, .dessert {
+  margin-bottom: 40px;
 }
 
 .title-restau {
@@ -314,12 +323,17 @@ body {
 }
 
 .card-menu {
+  cursor: pointer;
   position: relative;
   padding: 10px 0 10px 15px;
   background-color: white;
   margin-bottom: 20px;
   border-radius: 15px;
   box-shadow: 0px 4px 7px #C6C6C6;
+  transition: transform 400ms;
+}
+.card-menu:hover {
+  transform: scale(1.02);
 }
 
 .card-name {
@@ -335,4 +349,12 @@ body {
   right: 20px;
   bottom: 10px;
   font-weight: 600;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+}
+.order__btn {
+  padding: 15px 50px;
 }/*# sourceMappingURL=main.css.map */
