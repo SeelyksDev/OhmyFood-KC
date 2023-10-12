@@ -167,7 +167,8 @@ body {
 }
 
 .content {
-  background-color: purple;
+  position: relative;
+  background-color: white;
   margin-bottom: 10px;
   border-radius: 20px;
   position: relative;
@@ -187,5 +188,50 @@ body {
   padding: 4px 13px;
   border-radius: 3px;
   color: green;
+  font-weight: 500;
+}
+.content__title {
+  color: black;
+  margin: 13px 0 -2px 15px;
+}
+.content__city {
+  color: black;
+  margin: 0 0 0 15px;
+  font-size: 17px;
+}
+.content__heart {
+  position: absolute;
+  bottom: 30px;
+  right: 25px;
+  font-size: 27px;
+}
+
+.footer {
+  background-color: #353535;
+}
+.footer__container {
+  padding: 25px 0 25px 25px;
+}
+.footer__title {
+  font-family: "Shrikhand", sans-serif;
+  color: white;
+  font-weight: 300;
+}
+.footer__elements {
+  margin-top: 18px;
+}
+.footer__link {
+  margin-bottom: 4px;
+}
+.footer__text {
+  color: white;
+}
+.footer__ustensil {
+  margin-right: 15px;
+}
+.footer__handshake {
+  margin-right: 10px;
+}
+.footer__bold {
   font-weight: 500;
 }/*# sourceMappingURL=main.css.map */

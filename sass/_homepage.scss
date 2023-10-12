@@ -124,7 +124,8 @@ body {
 }
 
 .content {
-    background-color: purple;
+    position: relative;
+    background-color: white;
     margin-bottom: 10px;
     border-radius: 20px;
     position: relative;
@@ -144,6 +145,62 @@ body {
         padding: 4px 13px;
         border-radius: 3px;
         color: green;
+        font-weight: 500;
+    }
+
+    &__title {
+        color: black;
+        margin: 13px 0 -2px 15px;
+    }
+
+    &__city {
+        color: black;
+        margin: 0 0 0 15px;
+        font-size: 17px;
+    }
+
+    &__heart {
+        position: absolute;
+        bottom: 30px;
+        right: 25px;
+        font-size: 27px;
+    }
+}
+
+.footer {
+    background-color: #353535;
+
+    &__container {
+        padding: 25px 0 25px 25px;
+    }
+
+    &__title {
+        font-family: $title-font;
+        color: white;
+        font-weight: 300;
+    }
+
+    &__elements {
+        margin-top: 18px;
+    }
+
+    &__link {
+        margin-bottom: 4px;
+    }
+
+    &__text {
+        color: white;
+    }
+
+    &__ustensil {
+        margin-right: 15px;
+    }
+
+    &__handshake {
+        margin-right: 10px;
+    }
+
+    &__bold {
         font-weight: 500;
     }
 }
