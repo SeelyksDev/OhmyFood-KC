@@ -205,6 +205,20 @@ body {
   right: 25px;
   font-size: 27px;
 }
+.content__heartempty {
+  color: black;
+}
+.content__hearthover {
+  opacity: 0;
+  transition: opacity 400ms;
+  background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.content__hearthover:hover {
+  opacity: 1;
+}
 
 .footer {
   background-color: #353535;
@@ -234,4 +248,35 @@ body {
 }
 .footer__bold {
   font-weight: 500;
+}
+
+.header__logo {
+  position: relative;
+}
+.header__link {
+  position: absolute;
+  font-size: 22px;
+  left: 20px;
+  top: 16px;
+  color: black;
+}
+
+.menu__container {
+  padding: 20px 15px;
+  position: relative;
+  background-color: #F6F6F6;
+  border-radius: 35px 35px 0 0;
+  top: -40px;
+}
+.menu__title {
+  font-family: "Shrikhand", sans-serif;
+  font-weight: 400;
+  font-size: 28px;
+}
+
+.menu__regular {
+  background-color: red;
+  -webkit-background-clip: text;
+          background-clip: text;
+  -webkit-text-fill-color: red;
 }/*# sourceMappingURL=main.css.map */

@@ -12,21 +12,23 @@
     </head>
     <body>
         <header class="header">
-            <a href="/homepage.html" class="header__arrow">
-                <i class="fa-solid fa-arrow-left"></i>
-            </a>
             <div class="header__logo logocontain">
+                <a href="/homepage.html" class="header__link">
+                    <i class="header__arrow fa-solid fa-arrow-left"></i>
+                </a>
                 <h1 class="logocontain__title">ohmyfood</h1>
             </div>
         </header>
         <main class="menu">
-            <section class="menu__content">
-                <header>
-                    <img
-                        src="/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
-                        alt="main tenant une assiette"
-                        class="menu__img"
-                    />
+            <div class="menu__banner">
+                <img
+                    src="/img/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg"
+                    alt="main tenant une assiette"
+                    class="menu__img"
+                />
+            </div>
+            <section class="menu__container">
+                <header class="menu__header">
                     <h2 class="menu__title">La palette du goût</h2>
                     <i class="menu__regular fa-regular fa-heart"></i>
                     <i class="menu__solid fa-solid fa-heart"></i>
@@ -117,8 +119,8 @@
                         </div>
                     </div>
                 </section>
+                <button type="button" class="order btn">Commander</button>
             </section>
-            <button type="button" class="order btn">Commander</button>
         </main>
         <footer class="footer">
             <section class="footer__container">

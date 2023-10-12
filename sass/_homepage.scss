@@ -165,6 +165,23 @@ body {
         right: 25px;
         font-size: 27px;
     }
+
+    &__heartempty {
+        color: black;
+    }
+
+    &__hearthover {
+        opacity: 0;
+        transition: opacity 400ms;
+        background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
 }
 
 .footer {
