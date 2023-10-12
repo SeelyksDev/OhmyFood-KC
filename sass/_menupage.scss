@@ -78,27 +78,27 @@
 
     .card-menu {
         position: relative;
-        padding: 10px;
+        padding: 10px 0 10px 15px;
         background-color: white;
         margin-bottom: 20px;
         border-radius: 15px;
         box-shadow: 0px 4px 7px #C6C6C6;
     }
 
-    //&__name {
-    //    font-size: 18px;
-    //}
+    .card-name {
+        font-size: 17px;
+    }
 
-   // &__descritpion {
-     //   font-size: 15px;
-    //}
+    .card-description {
+        font-size: 14px;
+    }
 
-    //&__price {
-      //  position: absolute;
-        //right: 20px;
-        //bottom: 10px;
-        //font-weight: 600;
-    //}
+    .card-price {
+        position: absolute;
+        right: 20px;
+        bottom: 10px;
+        font-weight: 600;
+    }
 
 
 
