@@ -366,11 +366,19 @@ body {
     -moz-column-gap: 20px;
          column-gap: 20px;
   }
+  .step__card {
+    height: 65px;
+  }
   .step__cardtext {
     font-size: 15px;
   }
   .step__icons {
     font-size: 16px;
     margin: 0 10px 0 23px;
+  }
+  .restaurant__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
 }/*# sourceMappingURL=main.css.map */
