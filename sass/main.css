@@ -357,4 +357,20 @@ body {
 }
 .order__btn {
   padding: 15px 50px;
+}
+
+@media screen and (min-width: 768px) {
+  .step__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  .step__cardtext {
+    font-size: 15px;
+  }
+  .step__icons {
+    font-size: 16px;
+    margin: 0 10px 0 23px;
+  }
 }/*# sourceMappingURL=main.css.map */
