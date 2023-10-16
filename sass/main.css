@@ -396,4 +396,17 @@ body {
     margin-right: 20px;
     margin-bottom: 0;
   }
+}
+@media screen and (min-width: 768px) {
+  .menu__container {
+    padding: 60px 45px 0 45px;
+  }
+  .menu__title {
+    display: flex;
+    justify-content: center;
+  }
+  .menu__heart {
+    right: 205px;
+    top: 65px;
+  }
 }/*# sourceMappingURL=main.css.map */
