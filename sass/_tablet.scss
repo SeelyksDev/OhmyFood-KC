@@ -29,9 +29,16 @@
       display: flex;
       flex-direction: row-reverse;
       align-items: center;
+      padding: 50px 30px 20px 0px;
     }
     &__elements {
       display: flex;
+      flex-direction: row;
+      margin-top: 0;
+    }
+    &__link {
+      margin-right: 20px;
+      margin-bottom: 0;
     }
   }
 }

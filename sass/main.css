@@ -385,8 +385,15 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    padding: 50px 30px 20px 0px;
   }
   .footer__elements {
     display: flex;
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .footer__link {
+    margin-right: 20px;
+    margin-bottom: 0;
   }
 }/*# sourceMappingURL=main.css.map */
