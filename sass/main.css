@@ -217,7 +217,7 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content__hearthover:hover {
+.content__hearthover:active {
   opacity: 1;
 }
 
@@ -456,6 +456,12 @@ body {
          column-gap: 100px;
     row-gap: 40px;
   }
+  .content {
+    transition: transform 300ms;
+  }
+  .content:hover {
+    transform: scale(1.05);
+  }
   .footer__container {
     padding: 65px 50px 30px 0;
   }
@@ -486,6 +492,8 @@ body {
   }
   .footer__container {
     padding: 65px 50px 30px 0;
+    max-width: 1440px;
+    margin: 0 auto;
   }
   .footer__bloc1 {
     display: flex;

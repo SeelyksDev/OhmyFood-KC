@@ -130,7 +130,7 @@ body {
     margin-bottom: 10px;
     border-radius: 20px;
     position: relative;
-    height: 250px;
+    height: 250px; 
 
     &__img {
         border-radius: 20px 20px 0 0;
@@ -179,7 +179,7 @@ body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
 
-        &:hover {
+        &:active {
             opacity: 1;
         }
     }

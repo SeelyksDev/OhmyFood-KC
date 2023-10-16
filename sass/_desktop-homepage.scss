@@ -39,6 +39,13 @@
     }
   }
 
+  .content {
+    transition: transform 300ms;
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+
   .footer {
     &__container {
       padding: 65px 50px 30px 0;
