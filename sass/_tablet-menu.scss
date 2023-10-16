@@ -12,4 +12,22 @@
       top: 65px;
     }
   }
+  .footer {
+    &__container {
+      padding: 65px 30px 30px 0;
+    }
+    &__bloc1 {
+      display: flex;
+      align-items: center;
+      margin-right: 25px;
+    }
+    &__link {
+      margin-right: 10px;
+    }
+    &__bloc2 {
+      display: flex;
+      align-items: center;
+      margin-right: 20px;
+    }
+  }
 }
