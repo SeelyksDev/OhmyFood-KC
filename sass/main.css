@@ -360,7 +360,7 @@ body {
   padding: 15px 50px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .step__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -398,7 +398,7 @@ body {
     margin-bottom: 0;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 600px) {
   .menu__container {
     padding: 60px 45px 0 45px;
   }
