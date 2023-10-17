@@ -59,7 +59,7 @@ body {
 
     &:hover {
         transform: scale(1.1);
-        filter: brightness(1.2);
+        filter: brightness(1.1);
         font-weight: 400;
     }
 }
@@ -179,7 +179,7 @@ body {
         background-clip: text;
         -webkit-text-fill-color: transparent;
 
-        &:active {
+        &:hover {
             opacity: 1;
         }
     }

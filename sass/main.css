@@ -110,7 +110,7 @@ body {
 }
 .btn:hover {
   transform: scale(1.1);
-  filter: brightness(1.2);
+  filter: brightness(1.1);
   font-weight: 400;
 }
 
@@ -217,7 +217,7 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.content__hearthover:active {
+.content__hearthover:hover {
   opacity: 1;
 }
 
@@ -262,6 +262,9 @@ body {
   color: black;
 }
 
+.menu {
+  background-color: #F6F6F6;
+}
 .menu__container {
   padding: 30px 15px 0 15px;
   position: relative;
