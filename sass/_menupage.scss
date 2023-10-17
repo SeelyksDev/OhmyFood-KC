@@ -25,6 +25,8 @@
         }
 
         &__header {
+            display: flex;
+            align-items: center;
             margin-bottom: 40px;
         }
 
@@ -32,12 +34,10 @@
         font-family: $title-font;
         font-weight: 400;
         font-size: 28px;
+        margin-right: 20px;
     }
 
     &__heart {
-        position: absolute;
-        right: 40px;
-        top: 34px;
         font-size: 27px;
         cursor: pointer;
     }
@@ -47,6 +47,7 @@
     }
 
     &__solid {
+        margin-left: -27px;
         opacity: 0;
         transition: opacity 400ms;
         background: linear-gradient(to bottom right, #ff79d9, #9256dc);
@@ -109,6 +110,8 @@
 
     .card-name {
         font-size: 17px;
+        white-space: nowrap;
+        overflow: hidden;
         text-overflow: ellipsis;
     }
 
@@ -120,6 +123,9 @@
     }
 
     .card-description {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
         font-size: 14px;
        
     }
