@@ -99,10 +99,12 @@
 
     .card-name {
         font-size: 17px;
+        text-overflow: ellipsis;
     }
 
     .card-description {
         font-size: 14px;
+       
     }
 
     .card-price {

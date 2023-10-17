@@ -335,6 +335,7 @@ body {
 
 .card-name {
   font-size: 17px;
+  text-overflow: ellipsis;
 }
 
 .card-description {
