@@ -65,7 +65,6 @@
     margin-bottom: 40px;
 }
 
-
 .title-restau {
     position: relative;
     font-size: 16px;
@@ -83,9 +82,40 @@
     }
 }
 
+.starter {
+    &__container {
+        opacity: 0;
+        animation: appearance-dishes 1000ms 50ms both;
+    }
+}
+
+.dishe {
+    &__container {
+        opacity: 0;
+        animation: appearance-dishes 1000ms 450ms both;
+    }
+}
+
+.dessert {
+ &__container {
+        opacity: 0;
+        animation: appearance-dishes 1000ms 850ms both;
+    }
+}
+
+@keyframes appearance-dishes{
+    from {
+        transform: translateY(17%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
     .card-menu {
-        cursor: pointer;
         position: relative;
+        cursor: pointer;
         padding: 10px 0 10px 15px;
         background-color: white;
         margin-bottom: 20px;
@@ -95,6 +125,12 @@
         overflow: hidden;
 
         &:hover {
+            .card-name {
+                padding-right: 80px;
+            }
+            .card-description {
+                padding-right: 80px;
+            }
             .card-check {
               transform: translateX(0%);
             }
@@ -108,24 +144,26 @@
         }
      }
 
+     
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.card-name, .card-description {
+        transition: padding 400ms;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+     }
+
     .card-name {
         font-size: 17px;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
 
-    .card-footer {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-right: 20px;
-    }
-
-    .card-description {
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
+     .card-description {
         font-size: 14px;
     }
 

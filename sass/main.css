@@ -323,9 +323,33 @@ body {
   background-color: #99E2D0;
 }
 
+.starter__container {
+  opacity: 0;
+  animation: appearance-dishes 1000ms 50ms both;
+}
+
+.dishe__container {
+  opacity: 0;
+  animation: appearance-dishes 1000ms 450ms both;
+}
+
+.dessert__container {
+  opacity: 0;
+  animation: appearance-dishes 1000ms 850ms both;
+}
+
+@keyframes appearance-dishes {
+  from {
+    transform: translateY(17%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .card-menu {
-  cursor: pointer;
   position: relative;
+  cursor: pointer;
   padding: 10px 0 10px 15px;
   background-color: white;
   margin-bottom: 20px;
@@ -333,6 +357,12 @@ body {
   box-shadow: 0px 4px 7px #C6C6C6;
   transition: transform 400ms;
   overflow: hidden;
+}
+.card-menu:hover .card-name {
+  padding-right: 80px;
+}
+.card-menu:hover .card-description {
+  padding-right: 80px;
 }
 .card-menu:hover .card-check {
   transform: translateX(0%);
@@ -344,13 +374,6 @@ body {
   transform: rotate(0deg);
 }
 
-.card-name {
-  font-size: 17px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .card-footer {
   display: flex;
   justify-content: space-between;
@@ -358,10 +381,18 @@ body {
   margin-right: 20px;
 }
 
-.card-description {
+.card-name, .card-description {
+  transition: padding 400ms;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.card-name {
+  font-size: 17px;
+}
+
+.card-description {
   font-size: 14px;
 }
 
