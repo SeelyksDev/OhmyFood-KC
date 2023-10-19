@@ -18,7 +18,7 @@
         border: 10px dashed transparent;
         border-top: 10px dashed $secondary-color;
         border-right: 10px solid $secondary-color;
-        animation: rotate-circle 700ms infinite ;
+        animation: rotate-circle 700ms 3 ;
        }
 }
 
@@ -31,7 +31,7 @@
 @keyframes loader {
      to {
      opacity: 0;
-          display: none;
+          visibility: hidden;
       }
   }
 

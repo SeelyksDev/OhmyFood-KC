@@ -458,7 +458,7 @@ body {
   border: 10px dashed transparent;
   border-top: 10px dashed #FF79DA;
   border-right: 10px solid #FF79DA;
-  animation: rotate-circle 700ms infinite;
+  animation: rotate-circle 700ms 3;
 }
 
 @keyframes rotate-circle {
@@ -469,7 +469,7 @@ body {
 @keyframes loader {
   to {
     opacity: 0;
-    display: none;
+    visibility: hidden;
   }
 }
 @media screen and (min-width: 1025px) {
