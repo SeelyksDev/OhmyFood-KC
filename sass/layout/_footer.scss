@@ -46,7 +46,8 @@
         }
     
         &__title {
-          font-size: 15px;
+          padding: 2px;
+          font-size: clamp(14px,2vw,16px);
         }
     
         &__bloc1 {
@@ -72,7 +73,7 @@
           margin-bottom: 0;
         }
         &__text {
-          font-size: 13px;
+          font-size: clamp(13px, 2vw, 16px);
         }
       }
     }

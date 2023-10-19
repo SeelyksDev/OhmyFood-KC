@@ -18,7 +18,8 @@
       font-size: 19px;
     }
     &__cardtext {
-      font-size: 16px;
+      font-size: clamp(14px, 1vw, 16px);
+      padding-right: 15px;
     }
   }
 
