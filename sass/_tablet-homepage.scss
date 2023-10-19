@@ -37,16 +37,37 @@
       display: flex;
       flex-direction: row-reverse;
       align-items: center;
-      padding: 50px 30px 20px 0px;
+      padding: 50px 14px 20px 0px;
     }
+
+    &__title {
+      font-size: 15px;
+    }
+
+    &__bloc1 {
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+    }
+    &__link {
+      margin-right: 10px;
+    }
+    &__bloc2 {
+      display: flex;
+      align-items: center;
+      margin-right: 4px;
+    }
+    
     &__elements {
       display: flex;
       flex-direction: row;
       margin-top: 0;
     }
     &__link {
-      margin-right: 20px;
       margin-bottom: 0;
+    }
+    &__text {
+      font-size: 12px;
     }
   }
 }
