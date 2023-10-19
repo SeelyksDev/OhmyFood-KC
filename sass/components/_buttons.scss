@@ -1,0 +1,29 @@
+//Style principal des buttons
+.btn {
+    padding: 15px 20px;
+    border-radius: 50px;
+    box-shadow: 0px 5px 7px #C6C6C6;
+    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+    font-weight: 500;
+    border: none;
+    color: white;
+    transition: transform 400ms, filter 400ms;
+    cursor: pointer;
+
+    &:hover {
+        transform: scale(1.1);
+        filter: brightness(1.1);
+        font-weight: 400;
+    }
+}
+
+//Style du bouton order
+
+.order {
+    display: flex;
+    justify-content: center;
+
+    &__btn {
+        padding: 15px 50px;
+    }
+}

@@ -1,17 +1,4 @@
-@media screen and (min-width: 1025px) {
-  .loader {
-    &::after {
-      content:"";
-      height: 150px;
-        width: 150px;
-    }
-  }
-  
-  .logocontain {
-    &__title {
-      font-size: 40px;
-    }
-  }
+@media screen and (min-width: 1025px) { 
 
   .hero {
     &__title {
@@ -51,25 +38,6 @@
     transition: transform 300ms;
     &:hover {
       transform: scale(1.05);
-    }
-  }
-
-  .footer {
-    &__container {
-      padding: 65px 50px 30px 0;
-    }
-    &__bloc1 {
-      display: flex;
-      align-items: center;
-      margin-right: 40px;
-    }
-    &__link {
-      margin-right: 10px;
-    }
-    &__bloc2 {
-      display: flex;
-      align-items: center;
-      margin-right: 80px;
     }
   }
 }

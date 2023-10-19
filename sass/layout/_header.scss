@@ -1,0 +1,45 @@
+.logocontain {
+    @include align-center;
+    height: 63px;
+
+    &__title {
+        font-size: 30px;
+        font-family: $title-font;
+    }    
+}
+
+.headerlocation {
+    @include align-center;
+    font-weight: 500;
+    background-color: #EAEAEA;
+    height: 50px;
+    box-shadow: inset 0px 4px 11px -8px;
+
+    &__icon {
+        margin-right: 18px;
+    }
+}
+
+// header des menu
+.header {
+    &__logo {
+        position: relative;
+    }
+
+    &__link {
+        position: absolute;
+        font-size: 22px;
+        left: 20px;
+        top: 16px;
+        color: black;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) { 
+    .logocontain {
+      &__title {
+        font-size: 40px;
+      }
+    } 
+}

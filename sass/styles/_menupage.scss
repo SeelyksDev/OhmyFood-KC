@@ -1,19 +1,4 @@
 
-.header {
-    &__logo {
-        position: relative;
-    }
-
-    &__link {
-        position: absolute;
-        font-size: 22px;
-        left: 20px;
-        top: 16px;
-        color: black;
-    }
-    
-}
-
 .menu {
     background-color: $background-color;
     &__container {
@@ -35,29 +20,6 @@
         font-weight: 400;
         font-size: 28px;
         margin-right: 20px;
-    }
-
-    &__heart {
-        font-size: 27px;
-        cursor: pointer;
-    }
-
-    &__regular {
-        color: black;
-    }
-
-    &__solid {
-        margin-left: -27px;
-        opacity: 0;
-        transition: opacity 400ms;
-        background: linear-gradient(to bottom right, #ff79d9, #9256dc);
-        -webkit-background-clip: text;
-        background-clip: text;
-        -webkit-text-fill-color: transparent;
-
-        &:hover {
-            opacity: 1;
-        }
     }
 }
 
@@ -193,15 +155,6 @@
         transform: rotate(180deg);
         transition: 400ms;
         transition-delay: 100ms;
-    }
-
-    .order {
-        display: flex;
-        justify-content: center;
-
-        &__btn {
-            padding: 15px 50px;
-        }
     }
 
 

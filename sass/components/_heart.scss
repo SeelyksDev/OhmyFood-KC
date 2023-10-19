@@ -1,0 +1,48 @@
+
+//homepage
+.content__heart {
+    position: absolute;
+    bottom: 30px;
+    right: 25px;
+    font-size: 27px;
+}
+
+.content__heartempty {
+    color: black;
+}
+
+.content__hearthover {
+    opacity: 0;
+    transition: opacity 400ms;
+    background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:hover {
+        opacity: 1;
+    } }
+
+    //menupage
+    .menu__heart {
+        font-size: 27px;
+        cursor: pointer;
+    }
+
+    .menu__regular {
+        color: black;
+    }
+
+    .menu__solid {
+        margin-left: -27px;
+        opacity: 0;
+        transition: opacity 400ms;
+        background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+
+        &:hover {
+            opacity: 1;
+        }
+    }

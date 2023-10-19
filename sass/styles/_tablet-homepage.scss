@@ -1,0 +1,26 @@
+@media screen and (min-width: 600px) {
+  .step {
+    &__list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 20px;
+    }
+    &__card {
+      height: 65px;
+    }
+    &__cardtext {
+      font-size: 15px;
+    }
+    &__icons {
+      font-size: 16px;
+      margin: 0 10px 0 23px;
+    }
+  }
+  .restaurant {
+    &__container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+    }
+  }
+}
