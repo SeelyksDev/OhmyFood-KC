@@ -16,8 +16,8 @@
         width: 100px;
         border-radius: 50%;
         border: 10px dashed transparent;
-        border-top: 10px dashed #FF79DA;
-        border-right: 10px solid #FF79DA;
+        border-top: 10px dashed $secondary-color;
+        border-right: 10px solid $secondary-color;
         animation: rotate-circle 700ms infinite ;
        }
 }

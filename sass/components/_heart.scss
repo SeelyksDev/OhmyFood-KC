@@ -14,7 +14,7 @@
 .content__hearthover {
     opacity: 0;
     transition: opacity 400ms;
-    background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+    background: $gradient-button;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -37,7 +37,7 @@
         margin-left: -27px;
         opacity: 0;
         transition: opacity 400ms;
-        background: linear-gradient(to bottom right, #ff79d9, #9256dc);
+        background: $gradient-button;
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
