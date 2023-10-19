@@ -66,8 +66,8 @@ body {
 }
 .loader::after {
   content: "";
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   border-radius: 50%;
   border: 10px dashed transparent;
   border-top: 10px dashed #FF79DA;
@@ -468,6 +468,11 @@ body {
 }
 
 @media screen and (min-width: 600px) {
+  .loader::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+  }
   .step__list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -531,6 +536,11 @@ body {
   }
 }
 @media screen and (min-width: 1025px) {
+  .loader::after {
+    content: "";
+    height: 150px;
+    width: 150px;
+  }
   .logocontain__title {
     font-size: 40px;
   }
