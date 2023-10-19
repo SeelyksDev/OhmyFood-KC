@@ -51,17 +51,13 @@
         }
     
         &__bloc1 {
-          display: flex;
-          align-items: center;
           margin-right: 10px;
         }
         &__link {
           margin-right: 10px;
         }
         &__bloc2 {
-          display: flex;
-          align-items: center;
-          margin-right: 4px;
+          margin-right: 24px;
         }
         
         &__elements {
@@ -86,12 +82,7 @@
             margin: 0 auto;
             }
             &__bloc1 {
-              display: flex;
-              align-items: center;
               margin-right: 40px;
-            }
-            &__link {
-              margin-right: 10px;
             }
             &__text {
               font-size: 16px;
@@ -101,9 +92,7 @@
                 }
             }
             &__bloc2 {
-              display: flex;
-              align-items: center;
-              margin-right: 80px;
+              margin-right: 70px;
             }
           }
     }
