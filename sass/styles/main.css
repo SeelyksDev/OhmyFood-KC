@@ -419,7 +419,7 @@ body {
   height: 100vh;
   opacity: 0.9;
   z-index: 1;
-  animation: loader both;
+  animation: loader 900ms both;
   animation-delay: 1500ms;
 }
 .loader::after {
@@ -605,7 +605,7 @@ body {
     margin-bottom: 0;
   }
   .footer__text {
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 @media screen and (min-width: 1025px) {
@@ -623,6 +623,7 @@ body {
     margin-right: 10px;
   }
   .footer__text {
+    font-size: 16px;
     margin-right: 10px;
   }
   .footer__text:hover {

@@ -7,7 +7,7 @@
     height: 100vh;
     opacity: 0.9;
     z-index: 1;
-    animation: loader both;
+    animation: loader 900ms both;
     animation-delay: 1500ms;
     
     &::after {
