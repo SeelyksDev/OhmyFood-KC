@@ -10,6 +10,7 @@
     animation: loader 900ms both;
     animation-delay: 1500ms;
     
+    // cercle rotatif
     &::after {
         content:"";
         height: 100px;
@@ -18,7 +19,7 @@
         border: 10px dashed transparent;
         border-top: 10px dashed $secondary-color;
         border-right: 10px solid $secondary-color;
-        animation: rotate-circle 700ms 3 ;
+        animation: rotate-circle 700ms 3;
        }
 }
 
@@ -27,7 +28,7 @@
         transform: rotate(1turn);
     }
 }
-
+ // Gère la disparition du loader
 @keyframes loader {
      to {
      opacity: 0;
