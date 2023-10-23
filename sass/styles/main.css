@@ -121,7 +121,7 @@ body {
 
 .restaurant {
   background-color: #F6F6F6;
-  padding: 40px 15px;
+  padding: 40px 15px 90px 15px;
 }
 .restaurant__title {
   margin-bottom: 20px;
