@@ -161,11 +161,8 @@ body {
   font-size: 17px;
 }
 
-.menu {
-  background-color: #F6F6F6;
-}
 .menu__container {
-  padding: 30px 15px 0 15px;
+  padding: 30px 15px 50px 15px;
   position: relative;
   background-color: #F6F6F6;
   border-radius: 45px 45px 0 0;
@@ -209,7 +206,7 @@ body {
 }
 
 .starter, .dishe, .dessert {
-  margin-bottom: 40px;
+  margin-bottom: 56px;
 }
 
 .title-restau {
@@ -356,7 +353,7 @@ body {
 }
 @media screen and (min-width: 600px) {
   .menu__container {
-    padding: 60px 45px 0 45px;
+    padding: 60px 45px 50px 45px;
   }
   .menu__header {
     display: flex;
@@ -410,7 +407,7 @@ body {
   .menu__container {
     max-width: 1440px;
     margin: 0 auto;
-    padding: 60px 205px 0 205px;
+    padding: 60px 205px 50px 205px;
   }
 }
 .btn {
@@ -573,6 +570,7 @@ body {
   }
 }
 .footer {
+  margin-top: -45px;
   background-color: #353535;
 }
 .footer__container {

@@ -1,8 +1,7 @@
 //main container
 .menu {
-    background-color: $background-color;
     &__container {
-        padding: 30px 15px 0 15px;
+        padding: 30px 15px 50px 15px;
         position: relative;
         background-color: $background-color;
         border-radius: 45px 45px 0 0;
@@ -46,7 +45,7 @@
 }
 
 .starter, .dishe, .dessert{
-    margin-bottom: 40px;
+    margin-bottom: 56px;
 }
 
 // Titre des sections
