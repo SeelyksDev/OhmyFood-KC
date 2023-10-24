@@ -112,7 +112,11 @@ body {
   margin: 0 20px 0 35px;
   color: #7E7E7E;
 }
+.step__icons--phone {
+  margin-right: 25px;
+}
 .step__icons--purple {
+  margin-right: 20px;
   color: #9356DC;
 }
 .step__cardtext {
@@ -130,7 +134,7 @@ body {
 .content {
   position: relative;
   background-color: white;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   border-radius: 20px;
   position: relative;
   height: 250px;
