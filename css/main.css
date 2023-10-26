@@ -2,7 +2,6 @@
 /* Box sizing rules */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-
 *,
 *::before,
 *::after {
@@ -62,14 +61,12 @@ body {
   flex-direction: column;
   background-color: #F6F6F6;
 }
-
 .hero__title {
   line-height: 1.2;
   padding: 0 45px;
   text-align: center;
   margin-bottom: 10px;
 }
-
 .hero__subtitle {
   text-align: center;
   font-size: 18px;
@@ -80,17 +77,14 @@ body {
 .step {
   padding: 20px 0 40px 0;
 }
-
 .step__title {
   padding: 0 15px;
   font-size: 24px;
   margin-bottom: 30px;
 }
-
 .step__list {
   padding: 0 24px;
 }
-
 .step__card {
   position: relative;
   display: flex;
@@ -101,7 +95,6 @@ body {
   border-radius: 20px;
   box-shadow: 0px 4px 7px #C6C6C6;
 }
-
 .step__number {
   position: absolute;
   left: -10px;
@@ -115,21 +108,17 @@ body {
   font-size: 14px;
   color: white;
 }
-
 .step__icons {
   margin: 0 20px 0 35px;
   color: #7E7E7E;
 }
-
 .step__icons--phone {
   margin-right: 25px;
 }
-
 .step__icons--purple {
   margin-right: 20px;
   color: #9356DC;
 }
-
 .step__cardtext {
   font-weight: 500;
 }
@@ -138,7 +127,6 @@ body {
   background-color: #F6F6F6;
   padding: 40px 15px 90px 15px;
 }
-
 .restaurant__title {
   margin-bottom: 20px;
 }
@@ -151,14 +139,12 @@ body {
   position: relative;
   height: 250px;
 }
-
 .content__img {
   border-radius: 20px 20px 0 0;
   height: 170px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
-
 .content__label {
   position: absolute;
   top: 15px;
@@ -169,12 +155,10 @@ body {
   color: green;
   font-weight: 500;
 }
-
 .content__title {
   color: black;
   margin: 13px 0 -2px 15px;
 }
-
 .content__city {
   color: black;
   margin: 0 0 0 15px;
@@ -188,14 +172,12 @@ body {
   border-radius: 45px 45px 0 0;
   top: -45px;
 }
-
 .menu__header {
   display: flex;
   align-items: center;
   margin-bottom: 40px;
   width: 95%;
 }
-
 .menu__title {
   font-family: "Shrikhand", sans-serif;
   font-weight: 400;
@@ -206,25 +188,25 @@ body {
 .resize-enchantée {
   height: 247px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .resize-delice {
   height: 280px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .resize-palette {
   height: 290px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .resize-francais {
   height: 280px;
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .starter, .dishe, .dessert {
@@ -237,7 +219,6 @@ body {
   font-weight: 300;
   margin-bottom: 15px;
 }
-
 .title-restau::after {
   content: "";
   position: absolute;
@@ -267,13 +248,11 @@ body {
   from {
     transform: translateY(17%);
   }
-
   to {
     opacity: 1;
     transform: translateY(0);
   }
 }
-
 .card-menu {
   position: relative;
   cursor: pointer;
@@ -285,23 +264,18 @@ body {
   transition: transform 400ms;
   overflow: hidden;
 }
-
 .card-menu:hover .card-name {
   padding-right: 80px;
 }
-
 .card-menu:hover .card-description {
   padding-right: 80px;
 }
-
 .card-menu:hover .card-check {
   transform: translateX(0%);
 }
-
 .card-menu:hover .card-price {
   transform: translateX(-250%);
 }
-
 .card-menu:hover .card-icon {
   transform: rotate(0deg);
 }
@@ -362,102 +336,84 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     -moz-column-gap: 20px;
-    column-gap: 20px;
+         column-gap: 20px;
   }
-
   .step__card {
     height: 65px;
   }
-
   .step__cardtext {
     font-size: 15px;
     padding-right: 15px;
   }
-
   .step__icons {
     font-size: 16px;
     margin: 0 10px 0 23px;
   }
-
   .restaurant__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 }
-
 @media screen and (min-width: 600px) {
   .menu__container {
     padding: 60px 45px 50px 45px;
   }
-
   .menu__header {
     display: flex;
     justify-content: center;
   }
 }
-
 @media screen and (min-width: 1025px) {
   .hero__title {
     font-size: 40px;
   }
-
   .step {
     max-width: 1440px;
     margin: 0 auto;
     padding: 50px 190px;
   }
-
   .step__list {
     -moz-column-gap: 30px;
-    column-gap: 30px;
+         column-gap: 30px;
   }
-
   .step__icons {
     margin: 0 20px 0 40px;
     font-size: 19px;
   }
-
   .step__cardtext {
     font-size: clamp(14px, 1vw, 16px);
     padding-right: 15px;
   }
-
   .restaurant__all {
     max-width: 1440px;
     margin: 0 auto;
     padding: 0 180px;
   }
-
   .restaurant__container {
     -moz-column-gap: 100px;
-    column-gap: 100px;
+         column-gap: 100px;
     row-gap: 40px;
   }
-
   .content {
     transition: transform 300ms;
   }
-
   .content:hover {
     transform: scale(1.05);
   }
 }
-
 @media screen and (min-width: 1025px) {
   .menu__img {
     height: 500px;
     -o-object-fit: cover;
-    object-fit: cover;
+       object-fit: cover;
   }
-
   .menu__container {
     max-width: 1440px;
     margin: 0 auto;
     padding: 60px 205px 50px 205px;
   }
 }
-
 .btn {
   padding: 15px 20px;
   border-radius: 50px;
@@ -469,7 +425,6 @@ body {
   transition: transform 400ms, filter 400ms;
   cursor: pointer;
 }
-
 .btn:hover {
   transform: scale(1.1);
   filter: brightness(1.1);
@@ -481,7 +436,6 @@ body {
   display: flex;
   justify-content: center;
 }
-
 .order__btn {
   padding: 15px 50px;
 }
@@ -498,7 +452,6 @@ body {
   animation: loader 900ms both;
   animation-delay: 1500ms;
 }
-
 .loader::after {
   content: "";
   height: 100px;
@@ -515,14 +468,12 @@ body {
     transform: rotate(1turn);
   }
 }
-
 @keyframes loader {
   to {
     opacity: 0;
     visibility: hidden;
   }
 }
-
 @media screen and (min-width: 1025px) {
   .loader::after {
     content: "";
@@ -530,7 +481,6 @@ body {
     width: 150px;
   }
 }
-
 @media screen and (min-width: 600px) {
   .loader::after {
     content: "";
@@ -538,7 +488,6 @@ body {
     width: 125px;
   }
 }
-
 .content__heart {
   position: absolute;
   bottom: 30px;
@@ -558,7 +507,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .content__hearthover:hover {
   opacity: 1;
 }
@@ -581,7 +529,6 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-
 .menu__solid:hover {
   opacity: 1;
 }
@@ -592,7 +539,6 @@ body {
   align-items: center;
   height: 63px;
 }
-
 .logocontain__title {
   font-size: 30px;
   font-family: "Shrikhand", sans-serif;
@@ -607,7 +553,6 @@ body {
   height: 50px;
   box-shadow: inset 0px 4px 11px -8px;
 }
-
 .headerlocation__icon {
   margin-right: 18px;
 }
@@ -615,7 +560,6 @@ body {
 .header__logo {
   position: relative;
 }
-
 .header__link {
   position: absolute;
   font-size: 22px;
@@ -629,42 +573,33 @@ body {
     font-size: 40px;
   }
 }
-
 .footer {
   margin-top: -45px;
   background-color: #353535;
 }
-
 .footer__container {
   padding: 25px 0 25px 25px;
 }
-
 .footer__title {
   font-family: "Shrikhand", sans-serif;
   color: white;
   font-weight: 300;
 }
-
 .footer__elements {
   margin-top: 18px;
 }
-
 .footer__link {
   margin-bottom: 4px;
 }
-
 .footer__text {
   color: white;
 }
-
 .footer__ustensil {
   margin-right: 15px;
 }
-
 .footer__handshake {
   margin-right: 10px;
 }
-
 .footer__bold {
   font-weight: 500;
 }
@@ -676,62 +611,48 @@ body {
     align-items: center;
     padding: 50px 14px 20px 0px;
   }
-
   .footer__title {
     padding: 2px;
     font-size: clamp(14px, 2vw, 16px);
   }
-
   .footer__bloc1 {
     margin-right: 10px;
   }
-
   .footer__link {
     margin-right: 10px;
   }
-
   .footer__bloc2 {
     margin-right: 24px;
   }
-
   .footer__elements {
     display: flex;
     flex-direction: row;
     margin-top: 0;
   }
-
   .footer__link {
     margin-bottom: 0;
   }
-
   .footer__text {
     font-size: clamp(13px, 2vw, 16px);
   }
 }
-
 @media screen and (min-width: 1025px) {
   .footer__container {
     padding: 65px 50px 30px 0;
     max-width: 1440px;
     margin: 0 auto;
   }
-
   .footer__bloc1 {
     margin-right: 40px;
   }
-
   .footer__text {
     font-size: 16px;
     margin-right: 10px;
   }
-
   .footer__text:hover {
     text-decoration: underline;
   }
-
   .footer__bloc2 {
     margin-right: 70px;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
